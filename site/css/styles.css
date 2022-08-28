@@ -1,0 +1,138 @@
+/*!
+ * CSS file for Module 2 Assignment
+ */
+
+* {
+  box-sizing:  border-box;
+  /*margin: 0;
+  padding: 0;*/
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  padding: 25px;
+}
+h3 {
+  margin: 0px;
+  padding: 5px;
+  border:  1px black solid;
+  font-size: 125%;
+  /*position: absolute;
+  right: 0px;*/
+}
+div {
+  background-color: white;
+  color: black;
+  border:  1px black solid;
+  /*border-collapse: collapse;*/
+}
+
+p {
+  /*border: 1px solid black;*/
+  /*float: left;
+  position:  relative;*/
+  padding:  45px 10px 10px 10px;
+  color: black;
+}
+
+
+
+
+#d1 {
+  background-color: #A52A2A;
+  float: right;
+  /*display: block;*/
+}
+#d2 {
+  background-color: #DEB887;
+  float: right;
+  /*display: block;*/
+}
+#d3 {
+  background-color: lightgreen;
+  float: right;
+  /*display: block;*/
+}
+.h-chicken{
+  text-align: center;
+  color: black;
+}
+.h-beef {
+  text-align: center;
+  color: green;
+}
+.h-seafood {
+  text-align: center;
+  color: blue;
+}
+
+.row {
+  width: 100%;
+}
+
+.sections {
+  position: relative;
+  background-color: lightgray;
+  height: auto;
+  font-family: Helvetica;
+  border: 1px solid black;
+  padding-left: 20px;
+  margin: 10px 10px 10px 10px;
+  /*margin-left:  15px;
+  margin-top: 15px;*/
+  /*display: inline-block;*/
+
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px){
+  /* targets screens that are at least 992px wide  */
+  /*.col-lg-4 {
+    
+  }*/
+
+  .col-lg-4 {
+    float: left;
+    width: 33%;
+    margin: auto;
+  }
+  
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px){
+  /* targets screens that are at least 768px wide  */
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+    margin: auto;
+  }
+  .col-md-12 {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/*******Small Devices *************/
+@media (max-width: 767px){
+  /* targets screens that are at least 768px wide  */
+  .col-sm-12 {
+    float: left;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
