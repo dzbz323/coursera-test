@@ -83,6 +83,11 @@ body {
 #div-chicken-text {
   position: absolute;
 }
+#main-ul {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 #main-div-chicken {
