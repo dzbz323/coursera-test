@@ -66,7 +66,7 @@ body {
 
 
 /* HOME PAGE */
-.container .jumbotron {
+.container .our-menu {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
@@ -82,14 +82,8 @@ body {
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
+
+
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
@@ -139,6 +133,12 @@ body {
 .our-menu {
   height: 200px;
   font-size: 1.5em;
+}
+.div-chicken {
+  height: 1000px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /********** Large devices only **********/
